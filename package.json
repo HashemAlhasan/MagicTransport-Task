@@ -1,0 +1,29 @@
+{
+  "name": "learning-typescript-woth-express-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn --transpile-only src/app.ts",
+    "doc": "jsdoc -c jsdoc.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^4.17.21",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^22.9.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsdoc": "^4.0.4",
+    "mongoose": "^8.8.2",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "5.6.x"
+  },
+  "devDependencies": {
+    "typedoc": "^0.26.11"
+  }
+}
